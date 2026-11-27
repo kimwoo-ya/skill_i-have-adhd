@@ -3,7 +3,7 @@ name: plain-language
 description: Plain-language Korean writing in the reader's own words. Use when writing or editing documents such as Markdown or HTML docs, specs, plans, PR or issue bodies, and Confluence pages.
 ---
 
-Write Korean documents in plain language and follow the user's requested scope.
+Write Korean documents in plain language within the user's requested scope and format. When the user asks for exactly one line or only the document body, return only that text. Keep unknown labels as written and omit added notes, questions, and placeholders.
 
 ## Writing or broadly revising
 
@@ -18,7 +18,7 @@ Write Korean documents in plain language and follow the user's requested scope.
 
 ## Terms and identifiers
 
-- Use everyday words for bureaucratic jargon. Keep established technical labels such as 회귀 테스트 and the domain terms the reader and source use. Copy code identifiers exactly.
-- For newcomers, put a short explanation after the technical term on first use, as in 테이블 (데이터를 모아 두는 단위), 컬럼 (저장하는 항목), 행 (기록 한 건), 빌링키 (다음 결제에 쓰는 키).
+- Use everyday words for bureaucratic jargon. Keep the technical and domain terms the reader and source use, such as 회귀 테스트, 테이블, 컬럼, 행, and 빌링키. Copy code identifiers exactly.
+- For newcomers, explain what the original term or identifier means or does in the supplied context, right after its first use. For example, if the source defines a retry flag, write “`retry_enabled` 컬럼은 재시도할지를 나타냅니다.”
 - Limit terminology checks to meaning-sensitive domain terms and identifiers in the conversation, documents, and code provided for the request. Mention a new term only if the reader or team actually needs to decide what to call it.
-- For any audience, explain each unfamiliar internal identifier at first mention, including in a title, unless the surrounding document already defines it. If the provided material has no definition, stop there. Keep the identifier and flag the missing explanation or ask for it separately, within the requested output format.
+- For any audience, explain unfamiliar project labels such as decision, ticket, phase, and section IDs at first mention, including in a title, unless the surrounding document already defines them. If the provided material gives no definition, keep the label as written. When the requested format allows a note, flag the missing definition or ask for it separately.
