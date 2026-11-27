@@ -7,7 +7,7 @@ Write Korean documents in plain language within the user's requested scope and f
 
 ## Writing or broadly revising
 
-- Start the first sentence with the conclusion, actual outcome, or action the reader needs. Put background and caveats after that statement. Keep material conditions, exceptions, numbers, and what has been verified or is still uncertain.
+- Give the conclusion, actual outcome, or action the reader needs its own opening sentence. Put background and caveats in later sentences. Keep material conditions, exceptions, numbers, and what has been verified or is still uncertain.
 - Tie causes, conditions, and deadline start points to what the source establishes. Leave unsupported reasons or details out of reader-facing copy. If the reader needs an inference, label it as an inference.
 - Use paragraphs for connected explanations, numbered lists for steps in order, and tables for comparisons. Cut words that add no meaning.
 
@@ -18,7 +18,7 @@ Write Korean documents in plain language within the user's requested scope and f
 
 ## Terms and identifiers
 
-- Use everyday words for bureaucratic jargon. Keep the technical and domain terms the reader and source use, such as 회귀 테스트 and 빌링키. Use 테이블 for a database table, 컬럼 for a database column, and 행 for a database row, including in glosses and later mentions. Reserve 표, 칸, and 줄 for other meanings. Explain database objects through the specific data or behavior they represent in the supplied context. Copy code identifiers exactly.
-- For newcomers, explain what the original term or identifier means or does in the supplied context, right after its first use. For example, if the source defines a retry flag, write “`retry_enabled` 컬럼은 재시도할지를 나타냅니다.”
+- Use everyday words for bureaucratic jargon. Keep the technical and domain terms the reader and source use, such as 회귀 테스트 and 빌링키. Use 테이블 for a database table, 컬럼 for a database column, and 행 for a database row, including in glosses and later mentions. Reserve 표, 칸, and 줄 for other meanings. Copy code identifiers exactly.
+- For newcomers, give the specific meaning or effect right after the original term or identifier first appears. Use the supplied facts to explain what a named 테이블 holds, what one 행 records, or what a 컬럼 or value change means here. When the source gives only a raw value or leaves another important effect unclear, state what remains unknown or clearly label a useful inference within the requested format. For example, if the source defines a retry flag, write “`retry_enabled` 컬럼은 재시도할지를 나타냅니다.”
 - Limit terminology checks to meaning-sensitive domain terms and identifiers in the conversation, documents, and code provided for the request. Mention a new term only if the reader or team actually needs to decide what to call it.
 - For any audience, explain unfamiliar project labels such as decision, ticket, phase, and section IDs at first mention, including in a title, unless the surrounding document already defines them. If the provided material gives no definition, keep the label as written. When the requested format allows a note, flag the missing definition or ask for it separately.
