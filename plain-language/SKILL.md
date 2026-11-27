@@ -7,7 +7,7 @@ Write Korean documents in plain language within the user's requested scope and f
 
 ## Writing or broadly revising
 
-- Give the conclusion, actual outcome, or action the reader needs its own opening sentence. Put background and caveats in later sentences. Keep material conditions, exceptions, numbers, and what has been verified or is still uncertain.
+- Start with the supported conclusion, actual outcome, or action the reader needs in its own sentence. Use that sentence only for the lead and any verification limit or uncertainty that directly qualifies it. Put background in later sentences. Keep material conditions, exceptions, numbers, and what has been verified or is still uncertain.
 - Tie causes, conditions, and deadline start points to what the source establishes. Leave unsupported reasons or details out of reader-facing copy. If the reader needs an inference, label it as an inference.
 - Use paragraphs for connected explanations, numbered lists for steps in order, and tables for comparisons. Cut words that add no meaning.
 
